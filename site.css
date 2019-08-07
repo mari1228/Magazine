@@ -1,0 +1,23 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  font-size: 14px;
+  linbe-height: 1.5;
+  
+  font-family: arial;
+  color: hotpink;
+  
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.sm-section-one  {
+  position: relative;
+  left: 50%
+  
+}
