@@ -1,23 +1,101 @@
 body {
-  
-  margin: 0;
-  padding: 0;
-  
-  width: 100%;
-  font-size: 14px;
-  linbe-height: 1.5;
-  
-  font-family: arial;
-  color: hotpink;
-  
-  min-height: 100vh;
-  overflow: hidden;
-  position: relative;
-  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    color: white;
+    position: relative;
+}
+.sm-page {
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+.sm-section-one {
+
+/*    padding-left: 80%;*/
+    margin-left: 85%;
+}
+.sm-section-one-heading {
+    font-family: arial;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+        
 }
 
-.sm-section-one  {
-  position: relative;
-  left: 50%
-  
+.sm-section-one-paragraph {
+    line-height: 25px;
+}
+.sm-section-two {
+    width: 100%;
+    
+}
+
+.sm-section-two-heading {
+    font-family: arial;
+    font-size: 20px;
+}
+
+.sm-section-one-paragraph {
+    font-family: arial;
+    font-size: 15px;
+    
+        
+}
+
+.sm-section-two-paragraph {
+    font-family: arial;
+    font-size: 15px;
+}
+.sm-section-two-subheading {
+    font-family: arial;
+    
+}
+
+.sm-section-three {
+    
+    padding-top: 80px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.sm-section-three-heading {
+    font-size: 50px;
+}
+
+/*FOOTER*/
+.sm-footer {
+/*    margin-top: 100px;*/
+	padding: 30px;
+    width: 100%;
+	background-color: blue;
+	position: relative;
+	overflow: hidden;
+}
+
+.sm-button {
+    margin-left: 20px;
+	float: left;
+}
+
+.sm-button a {
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+}
+
+.sm-button a:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+  text-decoration: none;
 }
