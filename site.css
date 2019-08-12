@@ -58,7 +58,7 @@ body {
 .sm-section-three {
     
     padding-top: 80px;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: 'EB Garamond', serif;
@@ -94,8 +94,16 @@ body {
 }
 
 .sm-button a:hover {
-  color: red;
+  color: blue;
   background-color: white;
-  border: 1px solid red;
+  border: 1px solid blue;
   text-decoration: none;
+}
+
+.sm-button.js-sm-position {
+  background-url: "https://en.wikipedia.org/wiki/Heart_(symbol)#/media/File:Heart_coraz%C3%B3n.svg"; 
+  width: 100%;
+  margin: 0 auto;
+  
+ 
 }
