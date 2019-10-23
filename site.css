@@ -2,48 +2,111 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: blue;
     color: white;
     position: relative;
+    transition: all 0.3s ease;
+
+
 }
+
+.side-bar {
+
+  width: 200px;
+  height: 100%;
+  background-color: blue;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+
+}
+
+.content {
+
+  width: calc(100% - 200px);
+  height: 100%;
+  margin-left: 200px;
+
+}
+
+.new-btn {
+transition: all 0.3s ease;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  font-size: 25px;
+  cursor: pointer;
+  border-top: solid 50px black;
+  border-color: white;x
+  width: 125px;
+  font-family: arial;
+
+
+
+}
+
+.new-btn:hover{
+
+  border-style: dashed;
+}
+
 .sm-page {
-    width: 980px;
-    margin: 0 auto;
+
+    margin-left: 8%;
     height: auto;
+    margin-top:2%;
 }
 .sm-section-one {
 
 /*    padding-left: 80%;*/
-    margin-left: 85%;
+    margin-left: 85%
+    transition: all 0.3s ease;
 }
 .sm-section-one-heading {
     font-family: arial;
     font-size: 20px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    
-        
+    padding-bottom: 50px;
+    margin-top: 40px;
+
+
+}
+
+.sm-colour--on{
+  background: white;
+  color: blue;
+
+
+}
+
+.sm-colour--on .sm-button a{
+
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
+  text-decoration: none;
+
+
 }
 
 .sm-section-one-paragraph {
-    line-height: 25px;
+    line-height: 30px;
 }
 .sm-section-two {
     width: 100%;
-    
+
 }
 
 .sm-section-two-heading {
     font-family: arial;
-    font-size: 20px;
+    font-size: 100px;
+
 }
 
 .sm-section-one-paragraph {
     font-family: arial;
     font-size: 15px;
-    
-        
+
+
 }
 
 .sm-section-two-paragraph {
@@ -52,18 +115,19 @@ body {
 }
 .sm-section-two-subheading {
     font-family: arial;
-    
+
 }
 
 .sm-section-three {
-    
+
     padding-top: 80px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 100px;
     padding-bottom: 10px;
+
 }
 
 .sm-section-three-heading {
@@ -71,18 +135,16 @@ body {
 }
 
 /*FOOTER*/
-.sm-footer {
+.menu-bar {
 /*    margin-top: 100px;*/
-	padding: 30px;
+
+    padding: 30px;
     width: 100%;
-	background-color: blue;
-	position: relative;
-	overflow: hidden;
 }
 
 .sm-button {
     margin-left: 20px;
-	float: left;
+
 }
 
 .sm-button a {
@@ -91,6 +153,8 @@ body {
   border: 1px solid white;
   border-radius: 30px;
   color: white;
+
+
 }
 
 .sm-button a:hover {
@@ -101,9 +165,37 @@ body {
 }
 
 .sm-button.js-sm-position {
-  background-url: "https://en.wikipedia.org/wiki/Heart_(symbol)#/media/File:Heart_coraz%C3%B3n.svg"; 
+  background-url: "https://en.wikipedia.org/wiki/Heart_(symbol)#/media/File:Heart_coraz%C3%B3n.svg";
   width: 100%;
   margin: 0 auto;
-  
- 
+
+
 }
+
+.text-glow
+
+{
+
+  color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.grow {
+  transition: all .2s ease-in-out;
+  transform: scale(7.1);
+}
+
+
+.letter-spacing {
+
+  letter-spacing: 50px;
+}
+
+
+.sm-move {
+
+  text-align: right;
+  width:50%;
+}
+
